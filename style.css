@@ -1,0 +1,28 @@
+
+body{
+    background-color: rgb(0, 0, 0);
+    color: rgb(248, 242, 242);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h2{color: darkblue;
+
+}
+img{border: darkblue;
+border-style: groove;
+border-radius: 20px;
+height: 558px;
+right: 100px;}
+
+
+a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(140, 0, 255);
+}
+.video frame{
+    border: solid blue 12px;
+    border-radius: 16px;
+
+}

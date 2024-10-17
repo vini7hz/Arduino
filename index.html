@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>site02.arduino</title>
+    <a href="./index.html">Pricipal</a>
+    <a href="./pg01.html">semaforo simples</a>
+    <a href="./pg02.html">semaforo simples arduino</a>
+    <a href="./pg03.html">semaforo duplo</a>
+    <a href="./pg04.html">Semafaro duplo arduino</a>
+    <a href="pg05.html">9 à 0</a>
+    <a href="pg6.html">0 à 9</a>
+    <a href="pg7.html">Semafaro duplo com contador</a>
+
+</head>
+<body>
+    <h1>Semafaros funcionas usando um sistema de led.</h1>
+    <br>
+    <p>linguagem de programação C++ para Arduino é uma versão simplificada e adaptada do C++, projetada para facilitar a <br>    programação de microcontroladores da plataforma Arduino. Essa linguagem é usada para criar programas, <br> conhecidos como "sketches", que controlam dispositivos eletrônicos e interagem com sensores, <br> motores e outros componentes. 
+<br>
+        Características do C++ para Arduino:
+        Sintaxe Familiar: Baseada no C++, a sintaxe é bastante conhecida para quem já tem experiência <br> em programação, mas foi simplificada para  facilitar o aprendizado.
+ <br>       
+        Bibliotecas: O Arduino <br> possui uma vasta coleção de bibliotecas que estendem as funcionalidades do C++. <br> Isso permite que os desenvolvedores integrem facilmente componentes de hardware sem precisar codificar tudo do zero.
+      <br>  
+        Ambiente de Desenvolvimento Integrado (IDE): O Arduino <br> IDE oferece um ambiente acessível onde é possível escrever, compilar e carregar códigos para a placa Arduino de forma simples.
+        <br>
+        Estrutura de Código: Um sketch <br> típico em Arduino é estruturado em duas funções <br>principais: setup(), que é executada uma vez ao iniciar, e loop(), que é repetida continuamente, permitindo o controle <br> dinâmico do hardware.
+        <br>
+        Interatividade com Hardware: O C++ para <br> Arduino permite a leitura de entradas (como sensores) <br> e o controle de saídas (como LEDs e motores), facilitando a criação de projetos interativos.
+        <br>
+        Aplicações Comuns:
+        Robótica
+        Automação residencial
+        Projetos de arte eletrônica
+        Sensores de monitoramento ambiental <br>
+        Sistemas de controle
+        Em resumo, a linguagem C++ para Arduino combina a robustez do C++ com uma  <br>  abordagem acessível, ideal para iniciantes e entusiastas que desejam explorar o mundo da eletrônica e programação</p>
+        <br>
+        <h2>Exemplo de codigos</h2>
+        <br>
+        <p>// C++ code <br>
+            // 
+            voidsetup() <br>
+            { <br>
+              pinMode(8, OUTPUT);<br>
+              pinMode(9, OUTPUT);<br>
+              pinMode(10, OUTPUT);<br>
+              pinMode(13, OUTPUT);<br>
+              pinMode(12, OUTPUT);<br>
+              pinMode(11, OUTPUT);<br>
+            }br
+            
+            void loop() <br>
+            {
+              digitalWrite(8, HIGH); <br>
+              digitalWrite(9, LOW);<br>
+              digitalWrite(10, LOW);<br>
+              digitalWrite(13, HIGH);<br>
+              digitalWrite(12, LOW);<br>
+              digitalWrite(11, LOW);<br>
+              delay(7000); // Wait for 7000 millisecond(s) <br>
+              digitalWrite(8, LOW);<br>
+              digitalWrite(9, HIGH);<br>
+              digitalWrite(10, LOW);<br>
+              digitalWrite(13, HIGH);<br>
+              digitalWrite(12, LOW);<br>
+              digitalWrite(11, LOW);<br>
+              delay(2000); // Wait for 2000 millisecond(s) <br>
+              digitalWrite(8, LOW);<br>
+              digitalWrite(9, LOW);<br>
+              digitalWrite(10, HIGH);<br>
+              digitalWrite(13, LOW);<br>
+              digitalWrite(12, LOW);<br>
+              digitalWrite(11, HIGH);<br>
+              delay(7000); // Wait for 7000 millisecond(s) <br>
+              digitalWrite(8, LOW);<br>
+              digitalWrite(9, LOW);<br>
+              digitalWrite(10, HIGH);<br>
+              digitalWrite(13, LOW);<br>
+              digitalWrite(12, HIGH);<br>
+              digitalWrite(11, LOW);<br>
+              delay(2000); // Wait for 2000 millisecond(s) <br>
+              delay(1); // Wait for 1 millisecond(s) <br>
+            } <br>
+
+            </p>
+        <h2>IMAGEM ILUSTRATIVA DO CODIGO CPP USADO NA PROGRAMAÇÃO DO ARDUINO IDE</h2>
+    <img src="WhatsApp Image 2024-10-10 at 17.14.01.jpeg" alt="ARDIDE">
+    <br>
+    <img src="./WhatsApp Image 2024-10-10 at 17.14.06.jpeg" alt="">
+</body>
+</html>

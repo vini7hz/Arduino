@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>site02.arduino</title>
+    <a href="./index.html">Pricipal</a>
+    <a href="./pg01.html">semaforo simples</a>
+    <a href="./pg02.html">semaforo simples arduino</a>
+    <a href="./pg03.html">semaforo duplo</a>
+    <a href="./pg04.html">Semafaro duplo arduino</a>
+    <a href="pg05.html">9 à 0</a>
+    <a href="pg6.html">0 à 9</a>
+    <a href="pg7.html">Semafaro duplo com contador</a>
+
+</head>
+<body>
+    <h1>Foto da montagem do semafaro duplo (6 leds)</h1>
+    <br>
+    <img src="./WhatsApp Image 2024-10-17 at 14.48.58.jpeg" alt="Foto da montagem do semafaro duplo (6 leds)">
+    <br>
+    <h1>video da montagem do semafaro duplo</h1>
+    <br>
+    <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/EH6hofnkbvY?si=RNmF_sEyOdwg6ddw&amp;start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="video">
+            
+    <br>
+    <h1>Codigo do cpp usado no arduino</h1>
+    <br>
+    <p>// C++ code <br>
+        // br
+        void setup() <br>
+        { <br>
+          pinMode(8, OUTPUT); <br>
+          pinMode(9, OUTPUT); <br>
+          pinMode(10, OUTPUT); <br>
+          pinMode(13, OUTPUT); <br>
+          pinMode(7, OUTPUT); <br>
+          pinMode(11, OUTPUT); <br>
+        } <br>
+        
+        void loop() <br>
+        { <br>
+          digitalWrite(8, HIGH); <br>
+          digitalWrite(9, LOW); <br>
+          digitalWrite(10, LOW); <br>
+          digitalWrite(13, HIGH); <br>
+          digitalWrite(7, LOW); <br>
+          digitalWrite(11, LOW); <br>
+          delay(7000); // Wait for 7000 millisecond(s) <br>
+          digitalWrite(8, LOW); <br>
+          digitalWrite(9, HIGH); <br>
+          digitalWrite(10, LOW); <br>
+          digitalWrite(13, HIGH); <br>
+          digitalWrite(7, LOW); <br>
+          digitalWrite(11, LOW); <br>
+          delay(2000); // Wait for 2000 millisecond(s) <br>
+          digitalWrite(8, LOW); <br>
+          digitalWrite(9, LOW); <br>
+          digitalWrite(10, HIGH); <br>
+          digitalWrite(13, LOW); <br>
+          digitalWrite(7, LOW); <br>
+          digitalWrite(11, HIGH); <br>
+          delay(7000); // Wait for 7000 millisecond(s) <br>
+          digitalWrite(8, LOW); <br>
+          digitalWrite(9, LOW); <br>
+          digitalWrite(10, HIGH); <br>
+          digitalWrite(13, LOW); <br>
+          digitalWrite(7, HIGH); <br>
+          digitalWrite(11, LOW); <br>
+          delay(2000); // Wait for 2000 millisecond(s) <br>
+          delay(1); // Wait for 1 millisecond(s) <br>
+        }</p>
+
+
+    <br>
+    <h1>Imagem do codgio cpp usado no arduino para acender os leds.</h1>
+    <img src="./WhatsApp Image 2024-10-17 at 14.44.41.jpeg" alt="">
+  
+</body>
+</html>
